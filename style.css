@@ -1,10 +1,15 @@
-* {
+*{
     padding: 0;
     margin: 0;
 }
+  
+
+#aftr-logo-img {
+    max-width: 80%;
+}
 
 .dmain-c {
-    width: 1160px;
+    max-width: 1160px;
 }
 
 
@@ -19,7 +24,7 @@
     display: flex;
 }
 
-.dfx-c{
+.dfx-c {
     display: flex;
     justify-content: center;
 }
@@ -81,20 +86,17 @@
 }
 
 .abut-ext {
-    margin-right: 20px;
-    margin-left: 20px;
+    margin: 0 20px;
+ width: 100px;
     width: 100px;
     padding: 2px;
 }
 
 .sec-2-part {
-    width: 50%;
+    max-width: 50%;
 }
 
-.m-title {
-    /* margin-left: 100px;
-    margin-right: 100px; */
-}
+
 
 .mt {
     font-size: 30px;
@@ -102,7 +104,7 @@
     font-weight: bolder;
 }
 
-a {
+a{
     text-decoration: none;
 }
 
@@ -143,7 +145,7 @@ a {
 }
 
 .uperniche {
-    width: 25%;
+    max-width: 25%;
     padding: 20px;
     text-align: center;
     height: 200px;
@@ -154,7 +156,7 @@ a {
 .productimg {
     height: 150px;
     border: 1px solid #424652;
-    width: 130px;
+    max-width: 130px;
     margin: 10px;
 }
 
@@ -307,7 +309,7 @@ a {
 .top-gm {
     border: 2px solid #054481;
     margin: 20px;
-    width: 150px;
+    max-width: 150px;
     height: 186px;
     position: relative;
     border-radius: 20px 20px 70px 70px;
@@ -329,23 +331,23 @@ a {
 }
 
 .unk-2 {
-    float: left;
-    width: 250px;
+    /* float: left; */
+    /* max-width: 250px; */
 }
 
 .unk-3 {
-    width: 200px;
+    max-width: 200px;
     text-align: center;
 }
 
 .unk-4 {
-    float: left;
-    width: 300px;
+    /* float: left; */
+    /* max-width: 300px; */
 }
 
 .unk-5 {
-    float: left;
-    width: 300px;
+    /* float: left; */
+    /* max-width: 300px; */
 }
 
 .unk-6 {
@@ -356,14 +358,14 @@ a {
 }
 
 .unk-7 {
-    width: 100px;
+    max-width: 100px;
     margin: auto;
     position: relative;
     top: -43px;
 }
 
 .unk-8 {
-    width: 500px;
+    max-width: 500px;
     text-align: center;
 }
 
@@ -384,7 +386,7 @@ a {
 }
 
 .w100 {
-    width: 100px;
+    max-width: 100px;
 }
 
 .fs20 {
@@ -392,7 +394,7 @@ a {
 }
 
 .unk-11 {
-    /* width: 550px; */
+    /* max-width: 550px; */
     text-align: center;
 }
 
@@ -579,7 +581,7 @@ a {
     .top-gm {
         border: 2px solid #054481;
         margin: 20px;
-        width: 150px;
+        max-width: 150px;
         height: 186px;
         position: relative;
         border-radius: 20px 20px 70px 70px;
@@ -626,7 +628,7 @@ a {
         height: 300px;
         overflow: hidden;
         border-radius: 20px;
-        width: 500px;
+        max-width: 500px;
     }
 
     .gap25 {
@@ -668,8 +670,9 @@ a {
         margin-top: 0px;
         filter: blur(12px) drop-shadow(13px 5px 6px white);
     }
+
     .w100 {
-        width: 400px;
+        max-width: 400px;
     }
 
     .unk-10 {
@@ -717,6 +720,7 @@ a {
         left: -126px;
         rotate: -20deg;
     }
+
     .coolb-sec {
         background-color: #dbe7ff;
         padding: 63px;
@@ -725,12 +729,13 @@ a {
         border-radius: 80px;
     }
 }
+
 /* done */
 @media screen and (min-width: 1541px)and (max-width:1580px) {
     .top-gm {
         border: 2px solid #054481;
         margin: 20px;
-        width: 150px;
+        max-width: 150px;
         height: 186px;
         position: relative;
         border-radius: 20px 20px 70px 70px;
@@ -777,7 +782,7 @@ a {
         height: 300px;
         overflow: hidden;
         border-radius: 20px;
-        width: 500px;
+        max-width: 500px;
     }
 
     .gap25 {
@@ -819,8 +824,9 @@ a {
         margin-top: 0px;
         filter: blur(12px) drop-shadow(13px 5px 6px white);
     }
+
     .w100 {
-        width: 400px;
+        max-width: 400px;
     }
 
     .unk-10 {
@@ -869,12 +875,13 @@ a {
         rotate: -20deg;
     }
 }
+
 /* done */
 @media screen and (min-width: 1501px)and (max-width:1541px) {
     .top-gm {
         border: 2px solid #054481;
         margin: 20px;
-        width: 150px;
+        max-width: 150px;
         height: 186px;
         position: relative;
         border-radius: 20px 20px 70px 70px;
@@ -883,10 +890,10 @@ a {
     }
 
     .main-tubig {
-            height: 600px;
-            rotate: 20deg;
-            position: relative;
-            left: 64px;
+        height: 600px;
+        rotate: 20deg;
+        position: relative;
+        left: 64px;
     }
 
     #section-1 {
@@ -921,7 +928,7 @@ a {
         height: 300px;
         overflow: hidden;
         border-radius: 20px;
-        width: 500px;
+        max-width: 500px;
     }
 
     .gap25 {
@@ -963,8 +970,9 @@ a {
         margin-top: 0px;
         filter: blur(12px) drop-shadow(13px 5px 6px white);
     }
+
     .w100 {
-        width: 400px;
+        max-width: 400px;
     }
 
     .unk-10 {
@@ -997,12 +1005,13 @@ a {
         rotate: 28deg;
     }
 }
+
 /* ye niche wala done he  */
 @media screen and (min-width: 1461px)and (max-width:1500px) {
     .top-gm {
         border: 2px solid #054481;
         margin: 20px;
-        width: 150px;
+        max-width: 150px;
         height: 186px;
         position: relative;
         border-radius: 20px 20px 70px 70px;
@@ -1016,7 +1025,7 @@ a {
         position: relative;
         left: 64px;
     }
-    
+
     #section-1 {
         background-color: #dbe7ff;
         padding-top: 1px;
@@ -1030,7 +1039,7 @@ a {
         left: 300px;
         top: 25px;
     }
-    
+
     #logo-img-2 {
         margin: auto;
         height: 119px;
@@ -1042,20 +1051,20 @@ a {
     .unk-12 {
         margin-left: -186px;
     }
-    
+
     .f-prod-cover {
         background-color: rgb(216, 216, 235);
         margin: 70px 10px;
         height: 300px;
         overflow: hidden;
         border-radius: 20px;
-        width: 500px;
+        max-width: 500px;
     }
-    
+
     .gap25 {
         gap: 89px;
     }
-    
+
     #coth-sec-img {
         margin: 0 -30px -155px -163px;
         position: relative;
@@ -1065,7 +1074,7 @@ a {
         height: 600px;
         rotate: -16deg;
     }
-    
+
     .cb-2 {
         position: relative;
         margin: -152px 0 0 0;
@@ -1074,7 +1083,7 @@ a {
         left: 1200px;
         transition: rotate 1s ease-in-out;
     }
-    
+
     .unk-9 {
         position: relative;
         left: 28px;
@@ -1083,7 +1092,7 @@ a {
         margin-top: -80px;
         margin-bottom: -90px;
     }
-    
+
     .bpors {
         position: relative;
         top: -208px;
@@ -1091,15 +1100,16 @@ a {
         margin-top: 0px;
         filter: blur(12px) drop-shadow(13px 5px 6px white);
     }
+
     .w100 {
-        width: 400px;
+        max-width: 400px;
     }
-    
+
     .unk-10 {
         padding: 20px 60px;
         gap: 200px;
     }
-    
+
     #logo-img {
         height: 78px;
         position: relative;
@@ -1127,13 +1137,13 @@ a {
         left: 40px;
         top: 6px;
     }
-    
+
     .gmblr {
         overflow: hidden;
         height: 80px;
         margin-bottom: -80px;
     }
-    
+
     .unk-9 {
         position: relative;
         left: 10px;
@@ -1165,7 +1175,7 @@ a {
         background-color: rgb(216, 216, 235);
         margin: 70px 10px;
         height: 300px;
-        width: 386px;
+        max-width: 386px;
         overflow: hidden;
         border-radius: 20px;
     }
@@ -1214,7 +1224,7 @@ a {
     .top-gm {
         border: 2px solid #054481;
         margin: 20px;
-        width: 150px;
+        max-width: 150px;
         height: 186px;
         position: relative;
         border-radius: 20px 20px 70px 70px;
@@ -1231,7 +1241,7 @@ a {
     }
 
     .w100 {
-        width: 500px;
+        max-width: 500px;
     }
 
     .unk-10 {
@@ -1278,7 +1288,7 @@ a {
         background-color: rgb(216, 216, 235);
         margin: 70px 10px;
         height: 300px;
-        width: 386px;
+        max-width: 386px;
         overflow: hidden;
         border-radius: 20px;
     }
@@ -1327,7 +1337,7 @@ a {
     .top-gm {
         border: 2px solid #054481;
         margin: 20px;
-        width: 150px;
+        max-width: 150px;
         height: 186px;
         position: relative;
         border-radius: 20px 20px 70px 70px;
@@ -1344,13 +1354,13 @@ a {
     }
 
     .w100 {
-        width: 500px;
+        max-width: 500px;
     }
 }
 
 @media screen and (min-width: 1341px)and (max-width:1380px) {
     .w100 {
-        width: 450px;
+        max-width: 450px;
     }
 
     .bpors {
@@ -1382,7 +1392,7 @@ a {
     }
 
     .unk-11 {
-        width: 550px;
+        max-width: 550px;
         text-align: center;
     }
 
@@ -1411,7 +1421,7 @@ a {
     .top-gm {
         border: 2px solid #054481;
         margin: 20px;
-        width: 150px;
+        max-width: 150px;
         height: 186px;
         position: relative;
         border-radius: 20px 20px 70px 70px;
@@ -1448,7 +1458,7 @@ a {
     /* current */
 }
 
-
+/* yaha se niche main responsive he  */
 @media screen and (min-width:1080px) and (max-width: 1260px) {
     *{
         margin: 0;
@@ -1456,13 +1466,13 @@ a {
     }
 
     .dmain-c {
-        width: 980px;
+        max-width: 980px;
     }
 
     #coth-sec-img {
         margin: 0 -30px -155px -163px;
         position: relative;
-        top: -112px;
+        top: -89px;
         /* left: -67px; */
         left: -2%;
         height: 450px;
@@ -1492,7 +1502,7 @@ a {
     }
 
     .unk-3 {
-        width: 175px;
+        max-width: 175px;
         text-align: center;
     }
 
@@ -1503,13 +1513,14 @@ a {
     .top-gm {
         border: 2px solid #054481;
         margin: 20px;
-        width: 150px;
+        max-width: 150px;
         height: 186px;
         position: relative;
         border-radius: 20px 20px 70px 70px;
         left: 97px;
         top: -10px;
     }
+
     .main-tubig {
         height: 379px;
         rotate: 20deg;
@@ -1546,7 +1557,196 @@ a {
     }
 
     .w100 {
-        width: 225px;
+        max-width: 225px;
+    }
+
+    .nav {
+        display: flex;
+        background-color: white;
+        border-radius: 80px;
+        justify-content: center;
+        height: 60px;
+        margin: 25px 3% 55px;
+        align-items: center;
+        box-shadow: 1px 1px 7px 5px #4e4d4d24;
+    }
+}
+
+@media screen and (min-width:928px) and (max-width: 1080px) {
+    #logo-img {
+        height: 62px;
+        position: relative;
+        left: 16px;
+        top: 6px;
+    }
+
+    .unk-9 {
+        position: relative;
+        left: -1px;
+        top: -35px;
+        margin-bottom: -80px;
+    }
+
+    .bpors {
+        position: relative;
+        top: -214px;
+        left: -2px;
+        margin-top: -6px;
+        filter: blur(12px) drop-shadow(13px 5px 6px white);
+    }
+
+    /* .top-gm {
+        border: 2px solid #054481;
+        margin: 20px;
+        max-width: 150px;
+        height: 186px;
+        position: relative;
+        border-radius: 20px 20px 70px 70px;
+        left: 0;
+        top: -10px;
+    } */
+
+    .coolb-img {
+        height: 301px;
+        position: relative;
+        top: -116px;
+        rotate: 28deg;
+    }
+
+    #gm-head {
+        /* text-align: center; */
+        font-size: 40px;
+        /* font-weight: 900; */
+    }
+
+    .f-prod {
+        height: 235px;
+        rotate: 30deg;
+        translate: 0px 60px;
+        scale: 1;
+        transition: rotate 3s ease-in-out, translate 3s, scale 3s;
+    }
+
+    #aftr-logo-img {
+        max-width: 80%;
+    }
+
+    #cothas-img {
+        height: 280px;
+        rotate: 16deg;
+        position: relative;
+        left: 8px;
+        top: 25px;
+    }
+
+    .tnav {
+        padding: 25px 8px 20px;
+    }
+
+    .dmain-c {
+        max-width: 780px;
+    }
+
+    .unk-8 {
+        max-width: 400px;
+        text-align: center;
+    }
+
+    /*  */
+
+    #coth-sec-img {
+        margin: 0 -30px -155px -163px;
+        position: relative;
+        top: -89px;
+        /* left: -67px; */
+        left: -7%;
+        height: 414px;
+        filter: drop-shadow(1px 4px 2px #291d17);
+        color: #291d17;
+        rotate: -16deg;
+    }
+
+    .gg25 {
+        gap: 12px;
+    }
+
+    .cthb {
+        margin-left: 90px;
+    }
+
+    /* .f-prod {
+        height: 305px;
+        rotate: 30deg;
+        translate: 0px 60px;
+        scale: 1;
+        transition: rotate 3s ease-in-out, translate 3s, scale 3s;
+    } */
+
+    .f-prod-cover {
+        /* background-color: rgb(216, 216, 235); */
+        /* margin: 70px 10px; */
+        height: 237px;
+        /* overflow: hidden; */
+        /* border-radius: 20px; */
+    }
+
+    .unk-3 {
+        max-width: 175px;
+        text-align: center;
+    }
+
+    .unk-1 {
+        padding: 0 5%;
+    }
+
+    .top-gm {
+        border: 2px solid #054481;
+        margin: 20px;
+        max-width: 150px;
+        height: 186px;
+        position: relative;
+        border-radius: 20px 20px 70px 70px;
+        left: 97px;
+        top: -10px;
+    }
+
+    .main-tubig {
+        height: 379px;
+        rotate: 20deg;
+    }
+
+    #coolberg-img {
+        height: 370px;
+        position: relative;
+        top: 17px;
+        left: -96px;
+        rotate: -20deg;
+    }
+
+    /* #cothas-img {
+        height: 280px;
+        rotate: 16deg;
+        position: relative;
+        left: 46px;
+        top: 25px;
+    } */
+
+    .cb-2 {
+        position: relative;
+        margin: -152px 0 0 0;
+        rotate: 42deg;
+        top: 26px;
+        left: 85%;
+        transition: rotate 1s ease-in-out;
+    }
+
+    .unk-10 {
+        /* padding: 20px 60px; */
+        gap: 43px;
+    }
+
+    .w100 {
+        max-width: 225px;
     }
 
     .nav {
@@ -1562,9 +1762,206 @@ a {
 }
 
 
-@media screen and (min-width:768px) and (max-width: 820px) {
-    
-}
-@media screen and (min-width: 0px) and (max-width: 767px){
 
+@media screen and (min-width:820px) and (max-width: 927px) {
+
+    .dmain-c{
+        max-width: 730px;
+    }
+
+    #logo-img {
+        height: 62px;
+        position: relative;
+        left: 16px;
+        top: 6px;
+    }
+
+    .unk-1{
+        padding: 0;
+    }
+
+    .unk-9 {
+        position: relative;
+        left: -1px;
+        top: -35px;
+        margin-bottom: -80px;
+    }
+
+    .bpors {
+        position: relative;
+        top: -214px;
+        left: -2px;
+        margin-top: -6px;
+        filter: blur(12px) drop-shadow(13px 5px 6px white);
+    }
+
+    /* .top-gm {
+        border: 2px solid #054481;
+        margin: 20px;
+        max-width: 150px;
+        height: 186px;
+        position: relative;
+        border-radius: 20px 20px 70px 70px;
+        left: 0;
+        top: -10px;
+    } */
+
+    .coolb-img {
+        height: 301px;
+        position: relative;
+        top: -116px;
+        rotate: 28deg;
+    }
+
+    #gm-head {
+        /* text-align: center; */
+        font-size: 40px;
+        /* font-weight: 900; */
+    }
+
+    .f-prod {
+        height: 235px;
+        rotate: 30deg;
+        translate: 0px 60px;
+        scale: 1;
+        transition: rotate 3s ease-in-out, translate 3s, scale 3s;
+    }
+
+    #aftr-logo-img {
+        max-width: 80%;
+    }
+
+    #cothas-img {
+        height: 280px;
+        rotate: 16deg;
+        position: relative;
+        left: -63px;
+        top: -37px;
+    }
+
+    .tnav {
+        padding: 25px 8px 20px;
+    }
+
+    .dmain-c {
+        max-width: 780px;
+    }
+
+    .unk-8 {
+        max-width: 400px;
+        text-align: center;
+    }
+
+    /*  */
+
+    #coth-sec-img {
+        margin: 0 -30px -155px -163px;
+        position: relative;
+        top: -70px;
+        /* left: -67px; */
+        left: 29%;
+        height: 395px;
+        filter: drop-shadow(1px 4px 2px #291d17);
+        color: #291d17;
+        rotate: -16deg;
+    }
+
+    .cothas-block{
+        max-width:20%;
+    }
+
+    .gg25 {
+        gap: 12px;
+    }
+
+    .cthb {
+        margin-left: 90px;
+    }
+
+    /* .f-prod {
+        height: 305px;
+        rotate: 30deg;
+        translate: 0px 60px;
+        scale: 1;
+        transition: rotate 3s ease-in-out, translate 3s, scale 3s;
+    } */
+
+    .f-prod-cover {
+        /* background-color: rgb(216, 216, 235); */
+        /* margin: 70px 10px; */
+        height: 237px;
+        /* overflow: hidden; */
+        /* border-radius: 20px; */
+    }
+
+    .unk-3 {
+        max-width: 175px;
+        text-align: center;
+    }
+
+    
+
+    .top-gm {
+        border: 2px solid #054481;
+        margin: 20px;
+        max-width: 150px;
+        height: 186px;
+        position: relative;
+        border-radius: 20px 20px 70px 70px;
+        left: 40px;
+        top: -10px;
+    }
+
+    .main-tubig {
+        height: 379px;
+        rotate: 20deg;
+    }
+
+    #coolberg-img {
+        height: 370px;
+        position: relative;
+        top: 17px;
+        left: -96px;
+        rotate: -20deg;
+    }
+
+    /* #cothas-img {
+        height: 280px;
+        rotate: 16deg;
+        position: relative;
+        left: 46px;
+        top: 25px;
+    } */
+
+    .cb-2 {
+        position: relative;
+        margin: -152px 0 0 0;
+        rotate: 42deg;
+        top: 26px;
+        left: 79%;
+        transition: rotate 1s ease-in-out;
+    }
+
+    .unk-10 {
+        /* padding: 20px 60px; */
+        gap: 43px;
+    }
+
+    .w100 {
+        max-width: 225px;
+    }
+
+    .nav {
+        display: flex;
+        background-color: white;
+        border-radius: 80px;
+        justify-content: center;
+        height: 60px;
+        margin: 25px 3% 55px;
+        align-items: center;
+        box-shadow: 1px 1px 7px 5px #4e4d4d24;
+    }
 }
+
+
+@media screen and (min-width: 0px) and (max-width: 767px) {}
